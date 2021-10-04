@@ -1,0 +1,34 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allowed locations for resource groups",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e765b5de-1225-4ba3-bd56-1ac6695af988",
+  "scope": "/subscriptions/fc095b06-8356-4251-8a48-797dae6dc6fd",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedLocations": {
+    "value": [
+     "westeurope"
+    ]
+   }
+  },
+  "description": "Enable All Resource Group Creation Restriction to United Kingdom (UK South)",
+  "metadata": {
+   "assignedBy": "Zain Ravjani",
+   "parameterScopes": {
+    "listOfAllowedLocations": "/subscriptions/fc095b06-8356-4251-8a48-797dae6dc6fd"
+   },
+   "createdBy": "346b4fb7-8561-4141-b9f5-5d639bb17e0f",
+   "createdOn": "2021-10-01T14:46:07.1992569Z",
+   "updatedBy": "346b4fb7-8561-4141-b9f5-5d639bb17e0f",
+   "updatedOn": "2021-10-02T11:58:03.8560803Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/fc095b06-8356-4251-8a48-797dae6dc6fd/providers/Microsoft.Authorization/policyAssignments/da4405475d5d4d86be075428",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "da4405475d5d4d86be075428"
+}
